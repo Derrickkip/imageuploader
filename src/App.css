@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.uploader {
+  background: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.upload_section_main {
+  position: absolute;
+  width: 402px;
+  height: 469px;
+  top:50%;
+  left: 50%;
+  background: #FAFAFB;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upload_section_minor {
+  width: 338px;
+  height: 397px;
+  left: 551.82px;
+  top: 340.37px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main_text {
+  width: 165px;
+  height: 26.99px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.helper_text {
+  width: 121px;
+  height: 14.99px;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.035em;
+  color: #828282;
 }
+
+.upload_section {
+  width: 338px;
+  height: 218.9px;
+  left: 551.82px;
+  top: 427.97px;
+  background: #F6F8FB;
+  border: 1px dashed #97BEF4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.drag_message {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  color: #BDBDBD;
+}
+
+.or {
+  width: 14px;
+  height: 17.99px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #BDBDBD;
+}
+
+.button {
+  width: 101px;
+  height: 31.98px;
+  background: #2F80ED;
+  border: 0;
+  border-radius: 8px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
